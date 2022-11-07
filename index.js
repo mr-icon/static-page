@@ -1,15 +1,9 @@
-function Header() {
-  return (
-    <header>
-      <nav>
-        <img src="images/react-logo.jpg" width="40px" />
-      </nav>
-    </header>
-  );
-}
+import Header from "./Header";
+
+
 function Content() {
   return (
-    <div>
+    <div className>
       <h1>Fun Fact About React</h1>
       <ul>
         <li>Was first released in 2013</li>
