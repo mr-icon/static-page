@@ -1,14 +1,15 @@
 import React from "react";
+import reactLogo from "../images/logo.svg"
 
 function Header() {
   return (
     <header>
       <nav className="nav">
-        <img src="../images/react.png" alt=" " className="img" />
+        <img src={reactLogo} alt=" " className="img" />
         <ul className="nav-items">
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Content</li>
+          <li>React</li>
+          <li>Fun</li>
+          <li>Facts</li>
         </ul>
       </nav>
     </header>
